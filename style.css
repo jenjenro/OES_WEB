@@ -1,6 +1,17 @@
 .myheader{
     background-color: #127ab1;
-    width: 2000px;
+    width:100%;
     height: 50px;
     color: #ffffff;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+/* Para los margenes del contendor de las fotos. */
+.carousel-control {
+    width: 10%;
 }
